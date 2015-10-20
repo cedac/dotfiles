@@ -1,0 +1,17 @@
+# Install Oh-My-Zshell
+
+ECHO "Installing Oh My Zsh"
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+ECHO "Setting up"
+cp ~/.dotfiles/bootstrap/zshrc ~/.zshrc
+
+# Create devspace
+ECHO "Seting up devspace"
+
+mkdir ~/Documents/devspace
+
+ECHO "Initializings Done"
+
+zsh
+

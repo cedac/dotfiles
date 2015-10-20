@@ -1,0 +1,2 @@
+export PYTHONPATH="$HOME/caffe/distribute/python:$HOME/caffe/python/caffe:$PYTHONPATH"
+export DYLD_FALLBACK_LIBRARY_PATH=/usr/local/cuda/lib:/usr/local/lib:$HOME/caffe/distribute/lib:$DYLD_FALLBACK_LIBRARY_PATH

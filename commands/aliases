@@ -1,0 +1,8 @@
+alias edit="source ~/.dotfiles/commands/EditCmd.sh"
+alias zshconfig="edit ~/.zshrc"
+alias ohmyzsh="edit ~/.oh-my-zsh"
+alias gocode="cd ~/Documents/devspace"
+alias hello="echo Hey there"
+alias pls="sudo"
+alias composer="composer.phar"
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
